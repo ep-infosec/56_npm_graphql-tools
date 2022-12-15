@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GitLoader load async should load type definitions from a pluckable file 1`] = `
+{
+  "definitions": [
+    {
+      "description": undefined,
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 28,
+            "start": 15,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 20,
+              "start": 15,
+            },
+            "value": "hello",
+          },
+          "type": {
+            "kind": "NamedType",
+            "loc": {
+              "end": 28,
+              "start": 22,
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 28,
+                "start": 22,
+              },
+              "value": "String",
+            },
+          },
+        },
+      ],
+      "interfaces": [],
+      "kind": "ObjectTypeDefinition",
+      "loc": {
+        "end": 30,
+        "start": 0,
+      },
+      "name": {
+        "kind": "Name",
+        "loc": {
+          "end": 10,
+          "start": 5,
+        },
+        "value": "Query",
+      },
+    },
+  ],
+  "kind": "Document",
+  "loc": {
+    "end": 30,
+    "start": 0,
+  },
+}
+`;
+
+exports[`GitLoader load sync should load type definitions from a pluckable file 1`] = `
+{
+  "definitions": [
+    {
+      "description": undefined,
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 28,
+            "start": 15,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 20,
+              "start": 15,
+            },
+            "value": "hello",
+          },
+          "type": {
+            "kind": "NamedType",
+            "loc": {
+              "end": 28,
+              "start": 22,
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 28,
+                "start": 22,
+              },
+              "value": "String",
+            },
+          },
+        },
+      ],
+      "interfaces": [],
+      "kind": "ObjectTypeDefinition",
+      "loc": {
+        "end": 30,
+        "start": 0,
+      },
+      "name": {
+        "kind": "Name",
+        "loc": {
+          "end": 10,
+          "start": 5,
+        },
+        "value": "Query",
+      },
+    },
+  ],
+  "kind": "Document",
+  "loc": {
+    "end": 30,
+    "start": 0,
+  },
+}
+`;
